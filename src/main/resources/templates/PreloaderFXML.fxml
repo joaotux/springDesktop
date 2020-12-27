@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="124.0" prefWidth="181.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="77.0" fitWidth="84.0" layoutX="52.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="34.0" AnchorPane.leftAnchor="52.0" AnchorPane.rightAnchor="52.0" AnchorPane.topAnchor="13.0">
+         <image>
+            <Image url="@../../carregando.gif" />
+         </image>
+      </ImageView>
+      <Text fill="#1a7bd7" layoutX="52.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Carregando..." textAlignment="CENTER" wrappingWidth="77.0" />
+   </children>
+</AnchorPane>

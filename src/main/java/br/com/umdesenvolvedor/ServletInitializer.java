@@ -17,7 +17,9 @@ public class ServletInitializer extends Application {
 	private Parent parent;
 
 	public static void main(String[] args) {
-		launch(args);
+		System.setProperty("javafx.preloader", Preloader.class.getCanonicalName());
+		System.setProperty("java.awt.headless", "false");
+		Application.launch(ServletInitializer.class);
 	}
 
 	@Override

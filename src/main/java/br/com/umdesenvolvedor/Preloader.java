@@ -13,7 +13,7 @@ public class Preloader extends javafx.application.Preloader {
     private Parent parent;
 
     private Scene createPreloaderScene() throws IOException {
-        parent = (Parent) new FXMLLoader(getClass().getClassLoader().getResource("/templates/PreloaderFXML.fxml")).load();
+        parent = (Parent) new FXMLLoader(getClass().getClassLoader().getResource("templates/PreloaderFXML.fxml")).load();
 
         return new Scene(parent);
     }
